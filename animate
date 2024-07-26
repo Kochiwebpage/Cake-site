@@ -1,0 +1,20 @@
+.text-area h1{
+    text-transform: uppercase;
+    font-size: 90px;
+    line-height: 150px;
+    margin-left: 100px;
+    color: transparent;
+    -webkit-text-stroke: .5px rgb(227, 24, 91);
+    background:url(coc.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-area h1{
+    display: inline-block;
+}
